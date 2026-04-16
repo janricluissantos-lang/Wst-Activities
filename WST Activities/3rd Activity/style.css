@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.flex-row { display: flex; align-items: center; justify-content: space-between; }
+
+.header-bg { background-color: #f3b904; padding: 15px 0; }
+.header-flex { display: flex; justify-content: space-between; align-items: center; }
+.logo-img { height: 60px; }
+.navi { display: flex; list-style: none; }
+.navi li { color: white; margin-left: 35px; font-weight: bold; font-size: 18px; cursor: pointer; }
+
+.hero-wrapper { background-color: #fcc302; overflow: hidden; }
+.hero-content { padding-top: 40px; }
+.hero-text { flex: 1; color: white; }
+.hero-text h1 { font-size: 55px; font-weight: 900; line-height: 1.1; margin-bottom: 20px; }
+.btn-group { display: flex; gap: 15px; margin-top: 25px; }
+.btn-cyan { background-color: #00bcd4; color: white; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+.btn-outline { border: 2px solid white; color: white; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+.hero-dog { flex: 1; display: flex; align-items: flex-end; }
+.hero-dog img { max-width: 100%; display: block; }
+
+.service-section { padding: 100px 0; }
+.service-text h2 { font-size: 40px; color: #2e2e3e; margin-bottom: 20px; }
+.btn-yellow-solid { display: inline-block; background-color: #fcc302; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 20px; }
+.video-box { position: relative; box-shadow: 25px 25px 0px #fcc302; }
+.video-box img { width: 100%; display: block; }
+
+.cards-section { background-color: #fcc302; padding: 80px 0; text-align: center; }
+.section-header { color: white; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto; }
+.section-header h2 { font-size: 45px; font-weight: 900; margin-bottom: 15px; }
+.cards-grid { display: flex; gap: 30px; }
+.card { flex: 1; color: white; }
+.card-frame { background: white; padding: 10px; margin-bottom: 20px; }
+.card-frame img { width: 100%; display: block; }
+.card h3 { font-size: 24px; margin-bottom: 10px; font-weight: bold; }
